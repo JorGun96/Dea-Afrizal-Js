@@ -31,3 +31,25 @@ if(myfruit){
     console.log("there is no item you want");
 }
 */
+
+
+
+
+
+/*Copy Array*/
+
+const myFruit = ['🍇','🥑','🥭','🍋','🍑'] //anggap ini data asli
+const newfruit = [...myFruit]
+
+/*cara lain
+myFruit.slice()
+Array.from(myFruit)
+JSON.parse(JSON.stringify(myFruit))
+*/
+
+newfruit[0] = '🍨'
+newfruit[1] = '🍘'
+
+console.log({myFruit})
+console.log({newfruit})
+
