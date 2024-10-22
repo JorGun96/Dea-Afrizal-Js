@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <style>
+        /* Tambahkan sedikit gaya agar tampilan lebih baik */
+        .complete {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .delete-btn {
+            margin-left: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 3px 6px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a New Task">
+        <button id="addTaskButton">Add Task</button>
+
+        <ul id="taskList">
+            <!-- Tugas akan muncul di sini -->
+        </ul>
+    </div>
+
+    <script src="to-do-list.js"></script>
+</body>
+</html>
